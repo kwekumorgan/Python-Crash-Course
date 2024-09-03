@@ -46,3 +46,7 @@ print(student_name.upper())
 print(student_name.lower())
 
 
+# third execise 
+print('Albert Einstein once said "A person who never made a\nmistake never tried anything"')
+
+
