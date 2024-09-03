@@ -37,3 +37,12 @@ print(f'Types of language:\n\tSpanish\n\tItalian\n\tFrench\n\t Dutch\n\tEnglish'
 #first exercise 
 student_name="Afia"
 print(f'Hello {student_name}, would you like to learn with me today?')
+
+
+# second exercise 
+student_name="Afia"
+print(student_name.title())
+print(student_name.upper())
+print(student_name.lower())
+
+
