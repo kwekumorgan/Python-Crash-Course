@@ -49,4 +49,9 @@ print(student_name.lower())
 # third execise 
 print('Albert Einstein once said "A person who never made a\nmistake never tried anything"')
 
+# fourth exercise
 
+famous_person= "Albert Einstein"
+speech="A person who never made a\nmistake never tried anything"
+
+print(f'"{famous_person} {speech}"')
