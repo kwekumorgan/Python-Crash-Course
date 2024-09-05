@@ -21,7 +21,7 @@ for i in range(len(name)):
     print(f'How are you doing {name[i]}')
 
 # a list of cars
-cars=["toyota supra","aventador","lambourghini","BWM m5","Range Rover"]
+cars=["toyota supra","aventador","lambourghini","bmw m5","Range Rover"]
 
 # message
 message= "  will like to own a"
@@ -106,3 +106,32 @@ for y in range(len(dinner_guest)-2):
 for x in range(len(dinner_guest)):
 
     print(f'{dinner_guest[x]}, You are stil invited and make it on time ')
+
+
+
+
+    ### Organising a list 
+
+cars.sort(reverse=True)
+print(cars)
+
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+
+
+
+
+
+
+### Try work 3
+
+location=["accra","jamestown","legon","cantoment","ada"]
+tempo_sorted=sorted(location)
+
+print(location)
+tempo_sorted.reverse()
+print(tempo_sorted)
