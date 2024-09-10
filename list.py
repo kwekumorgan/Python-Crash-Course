@@ -23,6 +23,9 @@ for i in range(len(name)):
 # a list of cars
 cars=["toyota supra","aventador","lambourghini","bmw m5","Range Rover"]
 
+for car in cars:
+    print(car)
+
 # message
 message= "  will like to own a"
 
@@ -127,7 +130,7 @@ print(cars)
 
 
 
-### Try work 3
+### Try 3
 
 location=["accra","jamestown","legon","cantoment","ada"]
 tempo_sorted=sorted(location)
@@ -135,3 +138,37 @@ tempo_sorted=sorted(location)
 print(location)
 tempo_sorted.reverse()
 print(tempo_sorted)
+
+
+diff_number= list(range(1,8))
+print(diff_number)
+
+
+squares=[]
+for value in range(1,13):
+    square=value*3
+    squares.append(square)
+
+
+print(squares)
+
+
+cubes=[]
+
+for cube in range(1,11):
+    cube_value=cube**3
+    cubes.append(cube_value)
+
+print(cubes)
+
+
+
+
+cubes=[cube**3 for cube in range(1,11)]
+
+print(cubes)
+
+
+
+
+
