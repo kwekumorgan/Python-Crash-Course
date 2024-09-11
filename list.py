@@ -171,4 +171,22 @@ print(cubes)
 
 
 
+favourite_people=["Mom","Grandmum","Iris","Selina"]
+
+for favourite in favourite_people[0:3]:
+    print(f"she is called {favourite}")
+
+
+for favourite in favourite_people[1:]:
+    print(f"she is called {favourite}")
+
+
+my_pizza=["papa's pizzman","pizzman","Eddy's Pizza","Ring's Pizza"]
+friendz_pizza=my_pizza[:]
+
+for pizza in range(len(my_pizza)):
+    print(f"My favorite pizza is {my_pizza[pizza]}")
+
+for f_pizza in friendz_pizza[:]:
+    print(f"My friend's favorite pizza is {f_pizza}")
 
