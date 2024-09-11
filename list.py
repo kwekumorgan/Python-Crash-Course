@@ -190,3 +190,12 @@ for pizza in range(len(my_pizza)):
 for f_pizza in friendz_pizza[:]:
     print(f"My friend's favorite pizza is {f_pizza}")
 
+restaurant_food=("asorted rice", "jollof rice", "fried rice", "fried Yam","banku")
+
+for food in restaurant_food:
+    print(f"Kass Eatery offers {food}")
+
+restaurant_food=("asorted rice", "Akple", "fried rice", "fried Yam","Waakye")
+
+for food in restaurant_food:
+    print(f"Kass Eatery offers {food}")
