@@ -32,8 +32,10 @@ print(upper_car==car.lower())
 
 
 
+#Task 1
 kwame_age=24
 afia_age=32
+
 
 if (kwame_age<=36) and (afia_age<40):
     print("Both Afia and Kwame are in range ")
@@ -53,3 +55,15 @@ if "Onion" in requested_toppings:
 
 if "Banana" not in requested_toppings:
     print("Banana is not in the ingredient")
+
+
+
+#Task 2
+alien_colour= "green"
+
+
+if alien_colour=="green":
+    print("You earned 5 points")
+
+else:
+    print(" you earned 10 points")
