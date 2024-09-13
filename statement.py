@@ -62,8 +62,67 @@ if "Banana" not in requested_toppings:
 alien_colour= "green"
 
 
-if alien_colour=="green":
+if (alien_colour=="green"):
     print("You earned 5 points")
 
 else:
     print(" you earned 10 points")
+
+
+
+
+# Task 3 
+alien_colour="yellow"
+
+if (alien_colour=="green"):
+    print("You earned 5 points!")
+elif (alien_colour=="yellow"):
+    print("You earned 10 points!")
+elif (alien_colour=="red"):
+    print("You earned 15 points!")
+
+
+
+
+person_age=90
+
+
+if (person_age<2):
+    print("The person is a baby")
+elif ( person_age >=2) and (person_age<4):
+    print("The person is a toddler")
+elif (person_age>=4) and (person_age<13):
+    print("The person is a kid")
+    
+
+elif (person_age>=13) and (person_age<20):
+    print("The person is a teenager")
+
+elif (person_age>=20) and (person_age<65):
+    print("The person is an adult")
+
+elif (person_age>=65):
+    print("The person is an elder")
+
+
+
+
+favourite_fruit=["apple","pineapple","orange","strawberry","coconut"]
+
+if "coconut" in favourite_fruit:
+    print("You really like coconut")
+
+if "apple" in favourite_fruit:
+    print("You really like apple")
+
+
+if "pineapple" in favourite_fruit:
+    print("You really like pineapple")
+
+
+if "tangerine" in favourite_fruit:
+    print("You really like coconut")
+
+
+if "banana" in favourite_fruit:
+    print("You really like coconut")
