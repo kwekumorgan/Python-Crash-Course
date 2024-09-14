@@ -126,3 +126,17 @@ if "tangerine" in favourite_fruit:
 
 if "banana" in favourite_fruit:
     print("You really like coconut")
+
+
+
+username=["admin","user1","user2","user3","user4","user5"]
+
+if username:
+    for user in username:
+        if user=="admin":
+            print(f"Hello {user}, would like to see youtr status report")
+        else:
+            print(f"hello {user}, thank you for logging in again")
+else:
+    print("We have some present users")
+    
