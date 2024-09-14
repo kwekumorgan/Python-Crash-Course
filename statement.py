@@ -139,4 +139,17 @@ if username:
             print(f"hello {user}, thank you for logging in again")
 else:
     print("We have some present users")
-    
+
+
+
+current_users=["username1","Username2","username3","username4","username5"]
+
+new_users=["username6","username2","username7","username8","username5"]
+
+
+for new_user in new_users:
+    if new_user.lower() in current_users:
+        print(f"{new_user} already exist, use a diffirent username")
+    else:
+        print(f"{new_user} is available")
+        
