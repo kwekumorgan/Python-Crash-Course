@@ -44,3 +44,9 @@ else:
 
 
 ### WhileLoop
+
+count_to_five=1
+
+while count_to_five <=5:
+    print(count_to_five)
+    count_to_five +=1
