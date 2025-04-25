@@ -12,7 +12,18 @@ def display_message():
 
 display_message()
 
-def favourite_book(title):
-    print(f"My favourite book is {title.title()}")
+def favourite_book(title,producer):
+    print(f"My favourite book is {title.title()} is from {producer}")
 
-favourite_book('Lion king')
+favourite_book(producer="Sony Pictures",title='Lion king',)
+
+
+
+#Default value 
+
+def favourite_movie(name,company=''):
+    print(f'{name} is my favourite movie is by {company}')
+
+
+favourite_movie(name="spider:Homecoming")
+
