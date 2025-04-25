@@ -27,3 +27,30 @@ def favourite_movie(name,company=''):
 
 favourite_movie(name="spider:Homecoming")
 
+
+#TRY Work 2
+
+def make_shirt(size,message):
+    print(f'This shirt wants {message} printed on it and the shirt size should be {size}')
+
+make_shirt("large","'Be the change you want to see in the world!'")
+
+make_shirt(size='medium',message="'Have some faith, papi!'")
+
+
+
+def make_shirts(message,size="large",):
+    print(f'This shirt wants {message} printed on it and the shirt size should be {size}')
+
+
+make_shirts(message="If you're playing me, I will kill you!")
+make_shirts(size="small",message="If you save everyone, who saves you")
+
+
+def describe_city(city='', country=''):
+    print(f"{city.title()} is in {country.title()}")
+
+describe_city("tema","Ghana")
+describe_city("New York city","united states of america")
+describe_city("Nairobi","Kenya")
+
