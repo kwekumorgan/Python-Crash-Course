@@ -54,3 +54,16 @@ describe_city("tema","Ghana")
 describe_city("New York city","united states of america")
 describe_city("Nairobi","Kenya")
 
+
+
+#RETURNING VALUES
+def student_name(first_name,last_name):
+    St_name= f"My full name is {first_name.title()} {last_name.title()}"
+    return St_name
+
+
+student_rollcall= student_name('Godwin', 'Morgan')
+
+
+print(student_rollcall)
+
