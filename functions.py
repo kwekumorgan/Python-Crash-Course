@@ -107,11 +107,33 @@ def city_country(city,country):
 
 city_country(city="real madrid",country='Espanyol')
 city_country(city="Accra",country='Ghana')
-city_country(city="Monaco",country='Italy')
+city_country(city="Monaco",country='Italy') 
 
 
-def make_album(artist_name,name):
-    person={'artist_name':artist_name, 'name':name}
+def make_album(artist_name,album_name,songs:None):
+    person={'artist name':artist_name, 'album name':album_name}
+    if songs:
+        person['songs']=songs
     return person
 
+album_info=make_album('Sarkodie','Mary',5)
+print(album_info)
 
+album_info_2=make_album('King promise','Five Star',5)
+print(album_info_2)
+
+
+
+while True:
+    print("enter 'q' to quit:")
+    artist_name= input("Enter Artist name?")
+    if artist_name=='q':
+        break
+
+    album_name= input('Enter album name?')
+    if  album_name=='q':
+        break
+
+    songs=int(input('Enter number of songs on the album?'))
+    new_album=make_album(artist_name,album_name,songs)
+    print(new_album)
