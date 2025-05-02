@@ -84,6 +84,34 @@ print(musician)
 
 
 
+#Using function with whileloop          
+while True:
+    print("I you want to quit enter 'q'")
+    
+    lname=input("What is your last name?")
+    if lname=="q":
+        break
+    fname=input("what is your first name?")
+    if fname=="q":
+        break
+    identification= student_name(first_name=fname,last_name=lname)
+    print(identification)
+    
 
+#Try Work 2
+
+def city_country(city,country):
+
+    location=f'city,country'
+    return location.title()
+
+city_country(city="real madrid",country='Espanyol')
+city_country(city="Accra",country='Ghana')
+city_country(city="Monaco",country='Italy')
+
+
+def make_album(artist_name,name):
+    person={'artist_name':artist_name, 'name':name}
+    return person
 
 
