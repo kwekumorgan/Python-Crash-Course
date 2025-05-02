@@ -67,3 +67,23 @@ student_rollcall= student_name('Godwin', 'Morgan')
 
 print(student_rollcall)
 
+
+#Returning Dictionaries
+
+def build_person(first_name,last_name,Age:None):
+    person={'first':first_name,'last':last_name}
+    if Age:
+        person['Age']= Age
+    return person["Age"]
+
+
+
+musician= build_person("james","bond",5)
+
+print(musician)
+
+
+
+
+
+
