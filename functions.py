@@ -137,3 +137,39 @@ while True:
     songs=int(input('Enter number of songs on the album?'))
     new_album=make_album(artist_name,album_name,songs)
     print(new_album)
+
+
+
+
+#Passing List 
+
+def greet_users(names):
+    for name in names:
+        print(f'hello,{name}')
+
+
+usernames=['Pedri','raphina','lewandoski']
+
+greet_users(usernames)
+
+
+#Modifying List
+def print_model(completed_models,unprinted_designs):
+    while unprinted_designs:
+        current_design= unprinted_designs.pop()
+        print(f"Currently printed design {current_design}")
+
+        completed_models.append(current_design)
+
+
+def show_completed_models(completed_models):
+    for design in completed_models:
+
+        print(f"{design} was printed ")
+
+
+unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
+completed_models = []
+
+print_model(completed_models,unprinted_designs)
+show_completed_models(completed_models)
