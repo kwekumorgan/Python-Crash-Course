@@ -173,3 +173,24 @@ completed_models = []
 
 print_model(completed_models,unprinted_designs)
 show_completed_models(completed_models)
+
+
+
+#try work 3
+
+
+def send_messages(short_text,sent_messages):
+    while short_text:
+        printed_text= short_text.pop()
+        print(printed_text)
+        sent_messages.append(printed_text)
+    
+
+short_text=['done with',"for your information",'outfit of day','by the way ']
+sent_messages=[]
+
+send_messages(short_text[:],sent_messages)
+print(sent_messages)
+print(short_text)
+
+
