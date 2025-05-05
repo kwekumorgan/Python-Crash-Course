@@ -194,3 +194,15 @@ print(sent_messages)
 print(short_text)
 
 
+#Passing an Arbitary number of arguments
+def make_pizza(size,*toppings):
+    print(f'making a {size}-inch pizza with {toppings}:')
+   
+
+make_pizza(16,'pepperoni','green pepper','beef','extra cheese')
+
+
+
+
+#try work 4
+
