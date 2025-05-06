@@ -206,3 +206,30 @@ make_pizza(16,'pepperoni','green pepper','beef','extra cheese')
 
 #try work 4
 
+def sandwich_description(*items):
+    print("This is the description of your sandwich")
+
+    for item in items:
+        print(f"-{item}")
+
+
+
+sandwich_description('leaves','beef','cheese')
+
+
+
+def build_profile(last,first, **user_profile):
+    user_profile['last_name']=last
+    user_profile['first_name']= first
+    return user_profile
+
+
+user_profile= build_profile('Morgan','Godwin',location='Accra')
+
+print(user_profile)
+
+
+
+
+
+
